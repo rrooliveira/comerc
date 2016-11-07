@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body
+{
+    width: 100%;
+    font-family: "Trebuchet MS";    
+}
+
+.cabecalho{
+    background-image:url("../imagens/logo.png");
+    background-repeat: no-repeat;
+    background-color:#7485F6;
+    width:100%;
+    height:95px;
+    margin-bottom: 20px;
+}
+
+.cabecalho #cont_ca12aaf67a361804229297cf9ac4e440{
+    float: right;
+    border: none;
+}
+
+.noticias{
+    width: 50%;
+    margin: 0 auto;
+    color: #737373;
+}
+
+.noticias article{ 
+    
+    margin: 10px 0;
+}
+
+.noticias h1{
+    font-weight: bold;
+    color: #5BF118;
+}
+
+.noticias span a{
+    text-decoration: none;
+    color: #5052AD;
+}
+
+.rodape {
+    background-color: #E9ECFF;
+    bottom: 0;
+    width:100%;
+    height:90px;
+}
+
+.rodape #hora{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    color: #5052AD;
+}
